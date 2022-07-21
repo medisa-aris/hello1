@@ -12,7 +12,7 @@ public class TestService{
 		return "Ini Test " + name;
 	}
 	
-	@GetMapping("/test2/{name}")
+	@GetMapping("/test2/{var}")
 	private String getTest2(@PathVariable String var) {
 		return "Ini test 2 dengan var:  " + var;
 	}
