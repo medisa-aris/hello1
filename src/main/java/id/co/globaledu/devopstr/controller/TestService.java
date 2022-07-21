@@ -11,4 +11,9 @@ public class TestService{
 	private String getHello(@PathVariable String name) {
 		return "Ini Test " + name;
 	}
+	
+	@GetMapping("/test2/{name}")
+	private String getTest2(@PathVariable String var) {
+		return "Ini test 2 dengan var:  " + var;
+	}
 }
