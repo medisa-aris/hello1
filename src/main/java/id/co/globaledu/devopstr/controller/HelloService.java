@@ -14,6 +14,6 @@ public class HelloService {
 	
 	@GetMapping("/")
 	private String getHomepage() {
-		return "Just Homepage";
+		return "Just Homepage.";
 	}
 }
