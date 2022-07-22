@@ -11,4 +11,9 @@ public class HelloService {
 	private String getHello(@PathVariable String name) {
 		return "Hello " + name;
 	}
+	
+	@GetMapping("/")
+	private String getHomepage() {
+		return "Just Homepage";
+	}
 }
